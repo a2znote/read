@@ -1,2 +1,2 @@
-var exe = aesCrypto.decrypt(convertstr($.urlParam(&quot;o&quot;)), convertstr(&quot;root&quot;));
-document.getElementById(&quot;abc&quot;).innerHTML = exe;
+var exe = aesCrypto.decrypt(convertstr($.urlParam("o")), convertstr("root"));
+document.getElementById("abc").innerHTML = exe;
